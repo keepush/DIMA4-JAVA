@@ -1,0 +1,17 @@
+
+public class SwitchTest_01 {
+
+	public static void main(String[] args) {
+		String family = "Father";
+		
+		switch(family) {
+		case "Father" : System.out.println("아버지");
+		case "Mother" : System.out.println("어머니");
+		case "Brother" : System.out.println("남자 형제");
+		case "Sister" : System.out.println("여자 형제");
+		default : System.out.println("누구???");
+		}
+		System.out.println("끝!!!");
+	}
+
+}

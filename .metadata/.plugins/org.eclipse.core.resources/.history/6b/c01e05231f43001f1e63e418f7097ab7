@@ -1,0 +1,55 @@
+package stringapi;
+
+public class StringTest_02 {
+
+	public static void main(String[] args) {
+		String str = "i have a dream, a song to sing!";
+		
+		// 1) 문자열의 길이를 구하여 반환
+		int size = str.length();
+		System.out.println("문자열의 길이: " + size);
+		
+		// 2) 전달된 인덱스 위치의 문자 한 개를 반환
+		char ch = str.charAt(0);
+		System.out.println(ch);
+		
+		// 3) 현재 문자열과 주어진 문자열을 사전식으로 비교 -> 현재가 앞서면 음수, 같으면 0, 뒤라면 양수
+		System.out.println(str.compareTo("dont do that"));   // 시작 글자가 얼마나 앞뒤에 있는지 숫자로 표현
+		
+		// 4) 현재 문자열에 주어진 문자열 결합 
+		System.out.println(str.concat(" 사실 구라야."));
+		
+		// 5) 주어진 문자를 포함하고 있는지 확인 -> 포함 true, 불포함 false
+		System.out.println(str.contains("a"));
+		
+		// 6) 주어진 문자를 접미사로 하는지 확인
+		System.out.println(str.endsWith("sing!"));
+
+		// 7) 같은 문자열인지 비교
+		System.out.println(str.equals(str));
+		
+		// 8) 주어진 문자가 처음으로 나타나는 인덱스 반환 -> 포함 x 시 -1
+		System.out.println(str.indexOf("r"));
+//		
+//		int indexOf(int ch)
+//		
+//		boolean isEmpty()
+//		
+//		int lastIndexOf(int ch)
+//		
+//		String replace(char oldChar, char newChar)
+//		
+//		String[] split(String regex)
+//		
+//		String substring(int beginIndex)
+//		
+//		String substring(int beginIndex, int endIndex)
+//		
+//		String toLowerCase()
+//		
+//		Stirng toUpperCase()
+//		
+//		Stirng trim()
+	}
+
+}

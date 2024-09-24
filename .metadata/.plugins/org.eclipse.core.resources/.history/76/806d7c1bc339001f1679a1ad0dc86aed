@@ -1,0 +1,16 @@
+/*
+ * 	[문제-18] n까지의 자연수의 합을 구하시오
+ * 			  n을 입력하시오.  제어변수 i, 합계 누적 변수 total
+ * <실행>
+ * 	자연수 n을 입력 : 10
+ * 	<결과>
+ * 	1~10까지의 합계 = 55	
+ */
+public class Exam_18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

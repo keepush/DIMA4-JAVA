@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fitness.service.FitnessService&apos; to &apos;FitnessServiceImpl&apos;&#x0D;&#x0A;- Original project: &apos;FitnessProject_v02&apos;&#x0D;&#x0A;- Original element: &apos;fitness.service.FitnessService&apos;&#x0D;&#x0A;- Renamed element: &apos;fitness.service.FitnessServiceImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FitnessService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fitness.service{FitnessService.java[FitnessService" matchStrategy="1" name="FitnessServiceImpl" qualified="false" references="true" similarDeclarations="false" stamp="1720752381855" textual="false" version="1.0"/>
+</session>

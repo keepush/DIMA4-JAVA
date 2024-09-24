@@ -1,0 +1,14 @@
+/*
+ * 	[문제-20] for문을 이용해서 대문자 알파벳을 출력하시오.
+ * 	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ */
+public class Exam_20 {
+
+	public static void main(String[] args) {
+	for(int i=65; i<=90; ++i) System.out.print((char)i);
+	
+	System.out.println();
+	for(char i = 'A'; i<= 'Z'; ++i) System.out.print(i);
+	}
+
+}

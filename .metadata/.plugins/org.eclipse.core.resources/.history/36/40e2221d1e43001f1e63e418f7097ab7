@@ -1,0 +1,16 @@
+package stringapi;
+
+public class StringTest_02 {
+
+	public static void main(String[] args) {
+		String str = "i have a dream, a song to sing!";
+		
+		// 1) 문자열의 길이를 구하여 반환
+		int size = str.length();
+		System.out.println("문자열의 길이: " + size);
+		
+		char ch = str.charAt(0);
+		System.out.println(ch);
+	}
+
+}

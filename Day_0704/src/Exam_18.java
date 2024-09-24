@@ -1,0 +1,40 @@
+/*
+ * 	[문제-18A] n까지의 자연수의 합을 구하시오
+ * 			  n을 입력하시오.  제어변수 i, 합계 누적 변수 total
+ * <실행>
+ * 	자연수 n을 입력 : 10
+ * 	<결과>
+ * 	1~10까지의 합계 = 55	
+ * 
+ *  [문제-18B] n까지의 Factorial을 구하시오
+ * 			   n을 입력하시오.  제어변수 i, 팩토리얼 변수 factorial
+ * 	<실행>
+ * 	자연수 n을 입력: 5
+ * 	1~5까지의 합계 = 15
+ * 	5! = 120
+ */
+
+import java.util.Scanner;
+
+public class Exam_18 {
+
+	public static void main(String[] args) {
+		Scanner keyin = new Scanner (System.in);
+		int n, i=1, total=0, factorial=1;
+		
+		System.out.print("자연수 n을 입력: ");
+		n = keyin.nextInt();
+		
+		while (i <= n) {
+			total += i;
+			factorial *= i;
+			++i;  // 이거랑 i += 1은 똑같은 것
+		}
+		System.out.printf("1~%d까지의 합계 = %d%n", n, total);
+		System.out.printf("%d! = %d", n, factorial);
+		keyin.close();
+		
+	}
+
+
+}
